@@ -25,14 +25,14 @@ ssh-keygen -t rsa -C "wedgevine@outlook.com" -f "id_rsa_wedgevine"
     ```
 1. Add key to ssh-agent, so don't have to input passphrase every time
 
-    ```
-    # start ssh agent
-    eval "$(ssh-agent -s)"
-    # check ssh keys added
-    ssh-add -l
-    # add ssh key
-    ssh-add ~/.ssh/id_rsa_wedgevine
-    ```
+        ```
+        # start ssh agent
+        eval "$(ssh-agent -s)"
+        # check ssh keys added
+        ssh-add -l
+        # add ssh key
+        ssh-add ~/.ssh/id_rsa_wedgevine
+        ```
 1. Since the key has been stored in ssh-agent, we can do normal Git add/commit/push
 
 [^1]: [How to manage multiple GitHub accounts on a single machine with SSH keys](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)

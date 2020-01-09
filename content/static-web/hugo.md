@@ -44,10 +44,8 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
         # create workflow file
         mkdir .github/workflow
         cd .github/workflow
-        vi gh-pages.yml
-        ```
+        # vi gh-pages.yml
 
-        ```
         name: github pages
 
         on:

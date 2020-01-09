@@ -6,6 +6,7 @@ weight = 10
 ## Github setup
 1. Signup account with Github and create a repo "tool"
 1. Enable ssh connection to Github connect to Github through ssh [^1]
+
         ```
         # generate ssh keys
         cd ~/.ssh
@@ -14,6 +15,7 @@ weight = 10
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 1. Per [^1], create ~/.ssh/config file for each Github account
 1. Setting the git remote Url for the local repositories
+
         ```
         cd local-repo
         git init
@@ -23,6 +25,7 @@ weight = 10
         # note the above hostname notation which shoud match what is defined in config file
         ```
 1. Add key to ssh-agent, so don't have to input passphrase every time
+
         ```
         # start ssh agent
         eval "$(ssh-agent -s)"
@@ -33,5 +36,4 @@ weight = 10
         ```
 1. Since the key has been stored in ssh-agent, we can do normal Git add/commit/push
 
-tt
 [^1]: [How to manage multiple GitHub accounts on a single machine with SSH keys](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)

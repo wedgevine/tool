@@ -40,12 +40,13 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
         # generate keys for the repo
         ssh-keygen -t rsa -b 4096 -C "wedgevine@outlook.com" -f gh-pages-tool -N ""
         # copy pub key to repo tool - Settings - Deploy keys - Add deploy key, with name gh-pages-tool, allow write access
-        # copy pub key to repo tool - Settings - Deploy keys - Add deploy key, with name gh-pages-tool, allow write access
+        # copy private key to Secrets - Add a new secret, with name ACTIONS_DEPLOY_KEY
+
         # create workflow file
         mkdir .github/workflow
         cd .github/workflow
-        # vi gh-pages.yml
 
+        # vi gh-pages.yml
         name: github pages
 
         on:

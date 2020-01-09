@@ -36,19 +36,19 @@ weight = 10
         ```
 1. Since the key has been stored in ssh-agent, we can do normal Git add/commit/push
 
-[^1]: [How to manage multiple GitHub accounts on a single machine with SSH keys](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
 
 ## Github pages
-Any repo/organization/account could have a public facing static website at github.io per [^1]
+Any repo/organization/account could have a public facing static website at github.io per [^2]
 
-[^1]: [Types of GitHub Pages sites](https://help.github.com/en/github/working-with-github-pages/about-github-pages#types-of-github-pages-sites)
 
 ## Github actions
 Enable automatic software development workflow including CI/CD triggered by events such as "git push".
 
-There are many pre-defined actions on Github marketplace, for example, for Hugo static site, [^1] can build
+There are many pre-defined actions on Github marketplace, for example, for Hugo static site, [^3] can build
 and deploy it to Github pages automatically.
 
 
-[^1]: [Hugo setup](https://github.com/marketplace/actions/hugo-setup)
+[^1]: [How to manage multiple GitHub accounts on a single machine with SSH keys](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
+[^2]: [Types of GitHub Pages sites](https://help.github.com/en/github/working-with-github-pages/about-github-pages#types-of-github-pages-sites)
+[^3]: [Hugo setup](https://github.com/marketplace/actions/hugo-setup)
 

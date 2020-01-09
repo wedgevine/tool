@@ -1,11 +1,6 @@
 ---
-title: git
+title: Git
 weight: 5
+chapter: true
 ---
 
-about git
-
-## 1
-point 1
-## 2
-pint 2

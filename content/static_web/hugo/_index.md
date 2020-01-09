@@ -28,7 +28,7 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
         # or copy existing content
         cp -R themes/book/exampleSite/content . prepare content or edit "_index.md"
         ```
-2. Setting git remote url and adding key to ssh-agent, check {{< ref "basic/git/github/#github-setup" >}}
+2. Setting git remote url and adding key to ssh-agent, check {{< ref "/basic/git/github#github-setup" >}}
 3. Building Hugo site and deploying to Github Pages using Github actions
 
     Per[^1], for any Github repos, gh-pages branch can be used as a public facing website, the repo itself
@@ -82,6 +82,6 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
         ```
 
 
-[^1]: {{< ref "basic/git/github/#github-pages" >}}
+[^1]: {{< ref "/basic/git/github#github-pages" >}}
 [^2]: [a react app](https://medium.com/@Keithweaver_/setting-up-github-actions-for-a-react-app-on-github-pages-f66b28c312ac)
-[^3]: {{< ref "basic/git/github/#github-actions" >}}
+[^3]: {{< ref "/basic/git/github#github-actions" >}}

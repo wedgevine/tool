@@ -14,6 +14,7 @@ ssh-keygen -t rsa -C "wedgevine@outlook.com" -f "id_rsa_wedgevine"
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 1. Per [^1], create ~/.ssh/config file for each Github account
 1. Setting the git remote Url for the local repositories
+
     ```
     cd local-repo
     git init
@@ -23,6 +24,7 @@ ssh-keygen -t rsa -C "wedgevine@outlook.com" -f "id_rsa_wedgevine"
     # note the above hostname notation which shoud match what is defined in config file
     ```
 1. Add key to ssh-agent, so don't have to input passphrase every time
+
     ```
     # start ssh agent
     eval "$(ssh-agent -s)"

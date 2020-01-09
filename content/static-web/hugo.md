@@ -86,6 +86,9 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
 [^3]: [Github actions]({{< ref "/basic/git/github#github-actions" >}})
 
 ## Development
+1. docs
+    * https://gohugo.io/documentation/
+    * https://learn.netlify.com/en/
 1. config.toml configuration
 1. [Markdown supported by Hugo]({{< ref "/basic/markdown" >}})
     footnotes, code block, list

@@ -81,6 +81,6 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
     ```
 
 
-[^1]: {{< ref "/basic/git/github#github-pages" >}}
+[^1]: {{< ref "/basic/git/github.md" >}}
 [^2]: [a react app](https://medium.com/@Keithweaver_/setting-up-github-actions-for-a-react-app-on-github-pages-f66b28c312ac)
 [^3]: {{< ref "/basic/git/github#github-actions" >}}

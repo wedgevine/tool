@@ -10,7 +10,7 @@ wget https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linu
 sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
 ```
 
-## Development
+## Setup
 1. Local hugo repo setup
 
     ```
@@ -84,3 +84,12 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
 [^1]: [Github pages]({{< ref "/basic/git/github#github-pages" >}})
 [^2]: [a react app](https://medium.com/@Keithweaver_/setting-up-github-actions-for-a-react-app-on-github-pages-f66b28c312ac)
 [^3]: [Github actions]({{< ref "/basic/git/github#github-actions" >}})
+
+## Development
+1. config.toml configuration
+1. [Markdown supported by Hugo]({{< ref "/basic/markdown" >}})
+    footnotes, code block, list
+1. Content/folder structure, "_index.md"
+1. layout/static folder
+1. Show children contents
+1. Cross reference, relref, ref

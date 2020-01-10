@@ -101,6 +101,7 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
     https://gohugo.io/variables/site/
     https://medium.com/@jeffmcmorris/tips-and-tricks-for-building-a-theme-in-hugo-4806bdd747d7
     https://medium.com/@chrisconcannon/adding-an-external-canonical-url-to-a-hugo-template-3b6e18814649
+1. Theme learn style tweaking
 1. another interesting hugo theme https://themes.gohugo.io/academic/
 1. hugo with math/katex
     https://eankeen.github.io/blog/posts/render-latex-with-katex-in-hugo-blog/

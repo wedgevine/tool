@@ -4,7 +4,7 @@ weight = 10
 +++
 
 ## Github setup
-1. Signup account with Github and create a repo "tool"
+1. Signup account with Github and create a repo "tool", enable 2 step verification
 1. Enable ssh connection to Github connect to Github through ssh [^1]
 
         # generate ssh keys

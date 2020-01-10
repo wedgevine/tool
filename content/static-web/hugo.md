@@ -96,3 +96,15 @@ sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
 1. layout/static folder
 1. Show children contents
 1. Cross reference, relref, ref
+## Later
+1. How to make external links work?
+    https://gohugo.io/variables/site/
+    https://medium.com/@jeffmcmorris/tips-and-tricks-for-building-a-theme-in-hugo-4806bdd747d7
+    https://medium.com/@chrisconcannon/adding-an-external-canonical-url-to-a-hugo-template-3b6e18814649
+1. another interesting hugo theme https://themes.gohugo.io/academic/
+1. hugo with math/katex
+    https://eankeen.github.io/blog/posts/render-latex-with-katex-in-hugo-blog/
+    also book theme also supports math formula
+1. try other static site solution, using hugo/gitlab/ansible
+    https://blog.callr.tech/gitlab-ansible-docker-ci-cd/
+    https://blog.callr.tech/static-blog-hugo-docker-gitlab/
